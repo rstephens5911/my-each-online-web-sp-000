@@ -7,7 +7,7 @@ def my_each (array)
       i = i + 1
     end
     array
-  else 
+  else
     puts "no array given."
   end
 
