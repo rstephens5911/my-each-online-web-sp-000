@@ -11,7 +11,7 @@ def my_each (array)
     return "no array given."
   end
 
-  my_each(array) do |name|
-    puts name
+  my_each(array) do |word|
+    puts "#{word}"
   end
 end
