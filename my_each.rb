@@ -8,10 +8,10 @@ def my_each (array)
     end
     array
   else
-    puts "no array given."
+    return "no array given."
   end
 
   my_each(array) do |name|
-    puts name
+    name
   end
 end
